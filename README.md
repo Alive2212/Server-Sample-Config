@@ -1,1 +1,1 @@
-# NginX-Sample-Config
+# Server-Sample-Config
