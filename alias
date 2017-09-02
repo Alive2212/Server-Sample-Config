@@ -1,1 +1,1 @@
-alias clearfile="cat /dev/null"
+alias clearfile="cat /dev/null >"
