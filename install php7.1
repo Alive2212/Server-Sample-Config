@@ -1,15 +1,18 @@
-installation on centos 7.1w
+//installation on centos 7.1w
 rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
 yum install php71w-xml php71w-xsl php71w-mbstring php71w-zip php71w-mysql php71w php71w-sqlite3 php71w-opcache php71w-json php71w-curl php71w-cgi php71w-cli php71w-fpm php71w-common php71w-snmp php71w-soap php71w-mcrypt
 
-installation on centos 7.1u 
+//installation on centos 7.1u 
 rpm -Uvh http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-10.noarch.rpm
 rpm -Uvh https://centos7.iuscommunity.org/ius-release.rpm
 yum install php71u-xml php71u-xsl php71u-mbstring php71u-zip php71u-mysql php71u php71u-sqlite3 php71u-opcache php71u-json php71u-curl php71u-cgi php71u-cli php71u-fpm php71u-common php71u-snmp php71u-soap php71u-mcrypt
 
-installation on centos 7.0 (not conflict for install phpmyadmin)
+//installation on centos 7.0 (not conflict for install phpmyadmin)
 rpm -Uvh http://rpms.remirepo.net/enterprise/remi-release-7.rpm
 yum -y install yum-utils
 yum-config-manager --enable remi-php70
 yum -y install php php-opcache
+
+//install php my admin
+yum -y imstall phpmyadmin
